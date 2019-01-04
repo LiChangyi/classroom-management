@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/home/main",
+    "pages/user/main",
+    "pages/topicDetail/main",
+    "pages/shareDetail/main",
+    "pages/register/main",
+    "pages/topic/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1a1818",
+    "navigationBarTitleText": "Python课堂管理",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "#ffffff",
+    "backgroundColor": "#1a1818",
+    "selectedColor": "#efb336",
+    "list": [
+      {
+        "pagePath": "pages/home/main",
+        "iconPath": "/static/img/home.png",
+        "selectedIconPath": "/static/img/selectedHome.png",
+        "text": "首页"
+      }, {
+        "pagePath": "pages/topic/main",
+        "iconPath": "/static/img/topic.png",
+        "selectedIconPath": "/static/img/selectedTopic.png",
+        "text": "话题"
+      }, {
+        "pagePath": "pages/user/main",
+        "iconPath": "/static/img/user.png",
+        "selectedIconPath": "/static/img/selectedUser.png",
+        "text": "个人"
+      }
+    ]
+  }
+}
