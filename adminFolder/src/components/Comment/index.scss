@@ -1,0 +1,23 @@
+#root {
+  overflow: auto;
+}
+.comment {
+  .title {
+    margin-top: 20px;
+    position: relative;
+    padding-left: 20px;
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 10%;
+      width: 6px;
+      height: 80%;
+      background-color: #000;
+    }
+  }
+  .time {
+    text-align: right;
+    color: #777;
+  }
+}

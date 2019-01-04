@@ -1,0 +1,33 @@
+html,body,#root, main {
+  height: 100%;
+  overflow: hidden;
+}
+main {
+  min-width: 1000px;
+}
+.green-btn {
+  color: #5FB878;
+  &:hover {
+    background-color: #5FB878;
+    color: #fff;
+    border-color: #5FB878;
+  }
+}
+
+.blue-btn {
+  color: #1E9FFF;
+  &:hover {
+    background-color: #1E9FFF;
+    color: #fff;
+    border-color: #1E9FFF;
+  }
+}
+
+.red-btn {
+  color: #f5222d;
+  &:hover {
+    background-color: #f5222d;
+    color: #fff;
+    border-color: #f5222d;
+  }
+}

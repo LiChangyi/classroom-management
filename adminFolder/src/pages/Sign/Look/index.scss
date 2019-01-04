@@ -1,0 +1,37 @@
+.sign-look {
+  .wrap {
+    height: 100%;
+    width: 1000px;
+    min-width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+  .qrcode-box {
+    float: left;
+    width: 600px;
+    height: 600px;
+    border: 1px solid #ccc;
+  }
+  .user-box {
+    float: left;
+    box-sizing: border-box;
+    padding-left: 50px;
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+  }
+  .ant-list {
+    max-height: 558px;
+    overflow-y: auto;
+  }
+  .delete {
+    display: none;
+  }
+  .ant-list-item {
+    &:hover {
+      .delete {
+        display: unset;
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.nav-left {
+  height: 100vh;
+  min-width: 250px;
+  border-right: 1px solid #ccc;
+  font-size: 26px;
+  .user-info {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+  }
+  .user-name {
+    display: inline;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    transition: all .24s;
+    cursor: pointer;
+    &:hover {
+      color: #62be93;
+      border-bottom-color: #62be93;
+    }
+  }
+  .ant-menu-submenu-title, .ant-menu-item {
+    font-size: 18px;
+  }
+  .ant-menu {
+    background-color: transparent;
+    border: none;
+  }
+  .logo {
+    text-align: center;
+    color: #fff;
+  }
+  .logo {
+    padding: 40px 0;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #222;
+    margin: 0;
+  }
+}

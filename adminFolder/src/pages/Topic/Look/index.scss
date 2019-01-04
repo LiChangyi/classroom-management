@@ -1,0 +1,35 @@
+.look-page {
+  .wrap {
+    width: 1000px;
+    min-width: 1000px;
+    margin: 20px auto;
+    overflow: auto;
+  }
+  .article {
+    .title {
+      text-align: center;
+    }
+    .info {
+      display: flex;
+      margin: 10px 0 20px;
+    }
+    .author,.time {
+      flex: 1;
+    }
+    .author {
+      text-align: right;
+      padding-right: 50px;
+    }
+    .time {
+      text-align: left;
+      padding-left: 50px;
+    }
+    .content {
+      padding: 30px 20px;
+      border-width: 0px 1px;
+      border-style: solid;
+      border-color: #ccc;
+      border-radius: 10px;
+    }
+  }
+}

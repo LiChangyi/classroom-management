@@ -1,0 +1,27 @@
+.login-page {
+  background-image: url('/img/login.jpg');
+  background-size: cover;
+  position: relative;
+  .wrap {
+    width: 400px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 1px solid #e9e9e9;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -60%);
+  }
+  .title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  .login-button {
+    height: 46px;
+  }
+}

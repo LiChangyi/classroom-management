@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  .left {
+    flex: 1;
+  }
+  .main {
+    flex: 5;
+    overflow-x: auto;
+  }
+}
